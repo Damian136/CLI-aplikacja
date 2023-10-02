@@ -1,5 +1,22 @@
-"scripts" {
-  "start": "node index.js",
-  "start:dev": "nodemon index.js"
+{
+  "name": "cli-aplikacja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Damian136/CLI-aplikacja.git"
+  },
+  "homepage": "https://github.com/Damian136/CLI-aplikacja",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
 }
 
